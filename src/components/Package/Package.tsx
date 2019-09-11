@@ -171,10 +171,20 @@ const Package: React.FC<PackageInterface> = ({
     <PackageListItemText className="package-link" component="div" primary={renderPrimaryComponent()} secondary={renderSecondaryComponent()} />
   );
 
+  const renderUnpkgInfo = (): React.ReactNode => {
+    return (
+      <WrapperLink to={`//unpkg.visionacademy.cn/browse/${packageName}/`}>
+        {/* eslint-disable-next-line react/jsx-max-depth */}
+        <PackageTitle>{packageName}</PackageTitle>
+      </WrapperLink>
+    );
+  };
+
   return (
     <PackageList className={'package'}>
       <ListItem alignItems={'flex-start'}>{renderPackageListItemText()}</ListItem>
       <PackageListItem alignItems={'flex-start'} button={true}>
+        {renderUnpkgInfo()}
         {renderAuthorInfo()}
         {renderVersionInfo()}
         {renderPublishedInfo()}
