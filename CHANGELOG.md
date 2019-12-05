@@ -2,6 +2,56 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.3.1 (2019-12-05)
+
+
+### Bug Fixes
+
+* @typescript-eslint/explicit-function-return-type ([31c11f2](https://github.com/verdaccio/ui/commit/31c11f2))
+* @typescript-eslint/explicit-member-accessibility ([55f50e9](https://github.com/verdaccio/ui/commit/55f50e9))
+* @typescript-eslint/no-explicit-any ([ec8ed12](https://github.com/verdaccio/ui/commit/ec8ed12))
+* @typescript-eslint/no-explicit-any ([6eec4f4](https://github.com/verdaccio/ui/commit/6eec4f4))
+* @typescript-eslint/no-explicit-any ([2f28ade](https://github.com/verdaccio/ui/commit/2f28ade))
+* @typescript-eslint/no-explicit-any for file-size.ts ([b683b68](https://github.com/verdaccio/ui/commit/b683b68))
+* add missing global font-family ([c57f9dd](https://github.com/verdaccio/ui/commit/c57f9dd))
+* added packageMeta type ([3c54b11](https://github.com/verdaccio/ui/commit/3c54b11))
+* container breakpoint ([60b7161](https://github.com/verdaccio/ui/commit/60b7161))
+* css repetition is not closed in Logo component ([ec243b1](https://github.com/verdaccio/ui/commit/ec243b1))
+* fixed failed to load all packages after login ([#73](https://github.com/verdaccio/ui/issues/73)) ([7bac088](https://github.com/verdaccio/ui/commit/7bac088))
+* incorrect logos styles ([fdad635](https://github.com/verdaccio/ui/commit/fdad635)), closes [#47](https://github.com/verdaccio/ui/issues/47)
+* localhost domain download tarball button ([cca2c3c](https://github.com/verdaccio/ui/commit/cca2c3c))
+* logo component styled ([210bcf3](https://github.com/verdaccio/ui/commit/210bcf3))
+* missing headers on search endpoint with token ([#121](https://github.com/verdaccio/ui/issues/121)) ([ac58730](https://github.com/verdaccio/ui/commit/ac58730))
+* pattern allow yarn to add all files on pack ([#50](https://github.com/verdaccio/ui/issues/50)) ([9ffa629](https://github.com/verdaccio/ui/commit/9ffa629))
+* proxy webpack setting ([5c484bb](https://github.com/verdaccio/ui/commit/5c484bb))
+* refactoring version page / fix issue not found page [#100](https://github.com/verdaccio/ui/issues/100) ([#117](https://github.com/verdaccio/ui/issues/117)) ([97e8448](https://github.com/verdaccio/ui/commit/97e8448))
+* remove any types and added additional component state interfaces ([116055c](https://github.com/verdaccio/ui/commit/116055c))
+* remove ToReplaceByVerdaccio [#108](https://github.com/verdaccio/ui/issues/108) ([#122](https://github.com/verdaccio/ui/issues/122)) ([5a9bd60](https://github.com/verdaccio/ui/commit/5a9bd60))
+* **api:** correctly handle responses with missing content-type header ([2049022](https://github.com/verdaccio/ui/commit/2049022))
+* remove token from AppState ([78b4c3f](https://github.com/verdaccio/ui/commit/78b4c3f))
+* remove undefined error ([d1ed3e7](https://github.com/verdaccio/ui/commit/d1ed3e7))
+* search suggestion container height ([#54](https://github.com/verdaccio/ui/issues/54)) ([c9fb3c4](https://github.com/verdaccio/ui/commit/c9fb3c4))
+* support deprecated license object properties ([b2e420d](https://github.com/verdaccio/ui/commit/b2e420d))
+* takes the app version from verdaccio ([6f10837](https://github.com/verdaccio/ui/commit/6f10837))
+* there can be no spaces between scope and registry ([#34](https://github.com/verdaccio/ui/issues/34)) ([cc30d0b](https://github.com/verdaccio/ui/commit/cc30d0b))
+* token were not being send it ([fd74c52](https://github.com/verdaccio/ui/commit/fd74c52))
+* type lint for login ([91e603e](https://github.com/verdaccio/ui/commit/91e603e))
+* typescript warnings - prefer-rest-params ([e33570b](https://github.com/verdaccio/ui/commit/e33570b))
+* update snapshot for verdaccio/jsx-no-style ([e7d145f](https://github.com/verdaccio/ui/commit/e7d145f))
+* updated type to fix unit test ([7cab3f2](https://github.com/verdaccio/ui/commit/7cab3f2))
+* use auto for overflow-y ([#57](https://github.com/verdaccio/ui/issues/57)) ([01da082](https://github.com/verdaccio/ui/commit/01da082))
+* verdaccio/jsx-no-style ([55b1402](https://github.com/verdaccio/ui/commit/55b1402))
+* verify validation url and email ([#60](https://github.com/verdaccio/ui/issues/60)) ([980dac5](https://github.com/verdaccio/ui/commit/980dac5))
+* version rendering issue.  ([#38](https://github.com/verdaccio/ui/issues/38)) ([e8fd596](https://github.com/verdaccio/ui/commit/e8fd596))
+
+
+### Features
+
+* accept primary color to be configured ([#36](https://github.com/verdaccio/ui/issues/36)) ([d6a8f55](https://github.com/verdaccio/ui/commit/d6a8f55))
+* add browser features to browse by version ([#125](https://github.com/verdaccio/ui/issues/125)) ([1904179](https://github.com/verdaccio/ui/commit/1904179))
+* migrating flow to typescript ([#47](https://github.com/verdaccio/ui/issues/47)) ([6b5d0b7](https://github.com/verdaccio/ui/commit/6b5d0b7))
+* update material-ui@4.x ([#123](https://github.com/verdaccio/ui/issues/123)) ([67d7188](https://github.com/verdaccio/ui/commit/67d7188))
+
 ## [0.3.0](https://github.com/verdaccio/ui/compare/v0.2.4...v0.3.0) (2019-09-01)
 
 
