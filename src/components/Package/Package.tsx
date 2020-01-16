@@ -173,7 +173,7 @@ const Package: React.FC<PackageInterface> = ({
 
   const renderUnpkgInfo = (): React.ReactNode => {
     return (
-      <WrapperLink to={`//unpkg.visionacademy.cn/browse/${packageName}/`}>
+      <WrapperLink to={`${(window as any).UNPKG_URL}/browse/${packageName}/`}>
         {/* eslint-disable-next-line react/jsx-max-depth */}
         <PackageTitle>{packageName}</PackageTitle>
       </WrapperLink>
