@@ -60,7 +60,8 @@ export const Text = styled(Label)({
 
 export const Details = styled('span')({
   '&&': {
-    marginLeft: '5px',
+    marginLeft: '10px',
+    marginRight: '10px',
     lineHeight: 1.5,
     display: 'flex',
     flexDirection: 'column',

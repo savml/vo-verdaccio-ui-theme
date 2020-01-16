@@ -173,9 +173,22 @@ const Package: React.FC<PackageInterface> = ({
 
   const renderUnpkgInfo = (): React.ReactNode => {
     return (
-      <WrapperLink target="_blank" href={`${(window as any).UNPKG_URL}/browse/${packageName}/`}>
+      <WrapperLink target="_blank" to={`${(window as any).UNPKG_URL}/browse/${packageName}/`}>
         {/* eslint-disable-next-line react/jsx-max-depth */}
-        <PackageTitle>unpkg</PackageTitle>
+        <Details>
+          <Text text="文件" />
+        </Details>
+      </WrapperLink>
+    );
+  };
+
+  const renderContractInfo = (): React.ReactNode => {
+    return (
+      <WrapperLink target="_blank" to={`${(window as any).CONTRACT_URL}/viewer/${packageName}/`}>
+        {/* eslint-disable-next-line react/jsx-max-depth */}
+        <Details>
+          <Text text="合约"/>
+        </Details>
       </WrapperLink>
     );
   };
@@ -185,6 +198,7 @@ const Package: React.FC<PackageInterface> = ({
       <ListItem alignItems={'flex-start'}>{renderPackageListItemText()}</ListItem>
       <PackageListItem alignItems={'flex-start'} button={true}>
         {renderUnpkgInfo()}
+        {renderContractInfo()}
         {renderAuthorInfo()}
         {renderVersionInfo()}
         {renderPublishedInfo()}
