@@ -97,7 +97,7 @@
     "typescript": "3.5.3",
     "uglifyjs-webpack-plugin": "2.2.0",
     "url-loader": "2.1.0",
-    "validator": "11.1.0",
+    "validator": "13.7.0",
     "verdaccio": "4.2.2",
     "verdaccio-auth-memory": "8.0.0",
     "verdaccio-memory": "8.0.0",
